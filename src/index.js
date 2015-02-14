@@ -6,7 +6,7 @@ function baseMerge(a, b) {
     var objectKeys = keys(b),
         i = -1,
         il = objectKeys.length - 1,
-        key;
+        key, value;
 
     while (i++ < il) {
         key = objectKeys[i];
