@@ -1,5 +1,5 @@
-var keys = require("keys"),
-    isNullOrUndefined = require("is_null_or_undefined");
+var keys = require("@nathanfaucett/keys"),
+    isNullOrUndefined = require("@nathanfaucett/is_null_or_undefined");
 
 
 module.exports = merge;
